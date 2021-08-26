@@ -5,35 +5,35 @@ function About() {
   return (
     <section className="my-5">
       <h1 id="about">David Ferreira</h1>
-      <div class="container">
-        <div class="row justify-content-start">
+      <div className="container">
+        <div className="row justify-content-start">
           {/* HTML ICON */}
-          <div class="icon col">
-            <i class="fab fa-html5 fa-3x" title="HTML"></i>
+          <div className="icon col">
+            <i className="fab fa-html5 fa-3x" title="HTML"></i>
           </div>
           {/* CSS ICON */}
-          <div class="icon col">
-            <i class="fab fa-css3-alt fa-3x" title="CSS"></i>
+          <div className="icon col">
+            <i className="fab fa-css3-alt fa-3x" title="CSS"></i>
           </div>
           {/* JAVASCRIPT ICON */}
-          <div class="icon col">
-            <i class="fab fa-js fa-3x" title="JavaScript"></i>
+          <div className="icon col">
+            <i className="fab fa-js fa-3x" title="JavaScript"></i>
           </div>
           {/* NPM ICON */}
-          <div class="icon col">
-            <i class="fab fa-npm fa-3x" title="NPM"></i>
+          <div className="icon col">
+            <i className="fab fa-npm fa-3x" title="NPM"></i>
           </div>
           {/* NODEJS ICON */}
-          <div class="icon col">
-            <i class="fab fa-node fa-3x" title="NodeJs"></i>
+          <div className="icon col">
+            <i className="fab fa-node fa-3x" title="NodeJs"></i>
           </div>
           {/* GIT ICON */}
-          <div class="icon col">
-            <i class="fab fa-git fa-3x" title="Git"></i>
+          <div className="icon col">
+            <i className="fab fa-git fa-3x" title="Git"></i>
           </div>
           {/* BOOTSTRAP ICON */}
-          <div class="icon col">
-            <i class="fab fa-bootstrap fa-3x fa-fw" title="Bootstrap"></i>
+          <div className="icon col">
+            <i className="fab fa-bootstrap fa-3x fa-fw" title="Bootstrap"></i>
           </div>
         </div>
       </div>
