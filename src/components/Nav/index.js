@@ -1,13 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 
-function Nav(props) {
-  const [categories] = useState([
+function Nav() {
+  const categories = [
     {
       name: "Frontend Projects",
     },
     { name: "Backend Projects" },
     { name: "Full-Stack Projects" },
-  ]);
+  ];
+
+  function categorySelected(name) {
+    console.log(`${name} clicked`);
+  }
 
   return (
     <header className="flex-row px-1">
@@ -20,16 +24,20 @@ function Nav(props) {
       <nav className="container">
         <ul className="row">
           <li className="col-md">
-            <a href="#about">About me</a>
+            <a href="#about" onClick={() => categorySelected()}>
+              About me
+            </a>
           </li>
 
           {categories.map((category) => (
             <li className="col-md" key={category.name}>
-              <span>{category.name}</span>
+              <span onClick={() => categorySelected(category.name)}>
+                {category.name}
+              </span>
             </li>
           ))}
           <li className="col-md">
-            <span>Contact</span>
+            <span onClick={() => categorySelected()}>Contact</span>
           </li>
         </ul>
       </nav>
