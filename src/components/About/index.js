@@ -4,13 +4,46 @@ import coverImage from "../../assets/cover/me.jpg";
 function About() {
   return (
     <section className="my-5">
-      <h1 id="about">Who am I?</h1>
+      <h1 id="about">David Ferreira</h1>
+      <div class="container">
+        <div class="row justify-content-start">
+          {/* HTML ICON */}
+          <div class="icon col">
+            <i class="fab fa-html5 fa-3x" title="HTML"></i>
+          </div>
+          {/* CSS ICON */}
+          <div class="icon col">
+            <i class="fab fa-css3-alt fa-3x" title="CSS"></i>
+          </div>
+          {/* JAVASCRIPT ICON */}
+          <div class="icon col">
+            <i class="fab fa-js fa-3x" title="JavaScript"></i>
+          </div>
+          {/* NPM ICON */}
+          <div class="icon col">
+            <i class="fab fa-npm fa-3x" title="NPM"></i>
+          </div>
+          {/* NODEJS ICON */}
+          <div class="icon col">
+            <i class="fab fa-node fa-3x" title="NodeJs"></i>
+          </div>
+          {/* GIT ICON */}
+          <div class="icon col">
+            <i class="fab fa-git fa-3x" title="Git"></i>
+          </div>
+          {/* BOOTSTRAP ICON */}
+          <div class="icon col">
+            <i class="fab fa-bootstrap fa-3x fa-fw" title="Bootstrap"></i>
+          </div>
+        </div>
+      </div>
       <img
         src={coverImage}
         className="rounded float-start"
         style={{ width: "350px", height: "400px" }}
         alt="cover"
       />
+
       <div className="float-md-start">
         <p>
           Full stack web developer with a certificate from Rutgers University
