@@ -4,7 +4,7 @@ import About from "./components/About";
 
 function App() {
   // Using useState, set the default value for currentPage to 'Home'
-  const [currentPage, handlePageChange] = useState("Home");
+  const [currentPage, handlePageChange] = useState("About");
 
   // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {
