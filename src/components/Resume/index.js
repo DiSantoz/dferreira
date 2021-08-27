@@ -3,7 +3,7 @@ import Resumepdf from "../../assets/resume/Resume.pdf";
 
 function Resume() {
   return (
-    <section className="my-5">
+    <section className="">
       <h1 id="about">
         Download my{" "}
         <a href={Resumepdf} target="_blank" rel="noopener noreferrer">

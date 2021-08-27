@@ -3,17 +3,19 @@ import coverImage from "../../assets/cover/me.jpg";
 
 function About() {
   return (
-    <section className="my-5">
-      <h1 id="about">David Ferreira</h1>
+    <section className="">
+      <h1 className="text-center" id="about">
+        David Ferreira
+      </h1>
 
       <img
         src={coverImage}
-        className="rounded"
+        className="rounded mx-auto d-block"
         style={{ width: "350px", height: "400px" }}
         alt="cover"
       />
 
-      <div className="float-md-start">
+      <div className="">
         <p>
           Full stack web developer with a certificate from Rutgers University
           Bootcamp. Motivated to build new and exciting applications alongside a

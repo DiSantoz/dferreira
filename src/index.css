@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+}
+
+
+.contact{
+  background-color: var(--tertiary);
+  color: var(--secondary);
+  font-family: 'Staatliches', cursive;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  list-style: none
+}
+
+.contact li a {
+  color: var(--secondary);
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-style: normal;
+}
+

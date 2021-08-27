@@ -29,7 +29,7 @@ function App() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Call the renderPage function */}
 
-      <div>{renderPage()}</div>
+      <main>{renderPage()}</main>
 
       <Footer />
     </div>

@@ -2,30 +2,38 @@ import React from "react";
 
 function Footer() {
   return (
-    <section class="container" id="contact">
-      <h3>Contact Me</h3>
-      <div>
-        <address class="row g-2">
-          <a href="tel:+19734326444" class="col">
-            <i class="fas fa-mobile fa-2x"></i>
-          </a>
+    <section class="" id="contact">
+      <div class="">
+        <h3>Contact Me</h3>
 
-          <a
-            href="https://www.linkedin.com/in/davidsantosferreira/ "
-            class="col"
-            target="_blank"
-          >
-            <i class="fab fa-linkedin fa-2x"> </i>
-          </a>
+        <ul class="contact">
+          <li>
+            <a href="tel:+19734326444" class="">
+              <i class="fas fa-mobile fa-2x"></i>
+            </a>
+          </li>
 
-          <a href="https://github.com/DiSantoz" target="_blank" class="col">
-            <i class="fab fa-github-square fa-2x"> </i>
-          </a>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/davidsantosferreira/ "
+              class=""
+              target="_blank"
+            >
+              <i class="fab fa-linkedin fa-2x"> </i>
+            </a>
+          </li>
 
-          <a href="mailto:dferreia91@outlook.com" class="col">
-            <i class="fas fa-envelope fa-2x"> </i>
-          </a>
-        </address>
+          <li>
+            <a href="https://github.com/DiSantoz" target="_blank" class="">
+              <i class="fab fa-github-square fa-2x"> </i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:dferreia91@outlook.com" class="">
+              <i class="fas fa-envelope fa-2x"> </i>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   );
