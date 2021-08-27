@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
   // Using useState, set the default value for currentPage to 'Home'
@@ -11,8 +12,6 @@ function App() {
   // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {
     switch (currentPage) {
-      case "About":
-        return <About />;
       // case "Blog":
       //   return <Blog />;
       case "Contact":
@@ -29,7 +28,10 @@ function App() {
       {/* Pass the state value and the setter as props to NavTabs */}
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Call the renderPage function */}
+
       <div>{renderPage()}</div>
+
+      <Footer />
     </div>
   );
 }
