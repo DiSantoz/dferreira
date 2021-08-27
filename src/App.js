@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   // Using useState, set the default value for currentPage to 'Home'
@@ -13,10 +15,12 @@ function App() {
         return <About />;
       // case "Blog":
       //   return <Blog />;
-      // case "Contact":
-      //   return <Contact />;
-      // default:
-      //   return <Home />;
+      case "Contact":
+        return <Contact />;
+      case "Resume":
+        return <Resume />;
+      default:
+        return <About />;
     }
   };
 
