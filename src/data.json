@@ -1,51 +1,52 @@
 
 [
     {
-        "category": "Full-Stack",
+      "category": "Full-Stack",
       "title": "Tech-Space",
-      "description": "",
-      "image": "",
+      "description": "A tech themed blog website, that allows users to sign-up, or log in to their account and interact with other users via comments, as well as create their own posts!",
+      "image": "../../images/project/tech-space.png",
       "deployed": "https://the-tech-space.herokuapp.com/",
       "github": "https://github.com/DiSantoz/tech-space"
+      
     },
     {
       "category": "Full-Stack",
       "title": "Reciplanner",
-      "description": "",
-      "image": "",
+      "description": "View recipe videos and posts from other users",
+      "image": "../../images/project/recipe.png",
       "deployed": "https://reciplanner.herokuapp.com/",
       "github": "https://github.com/DiSantoz/reciplanner"
     },
     {
       "category": "Frontend",
       "title": "Jotit",
-      "description": "",
-      "image": "",
+      "description": "A simple and convenient note taking app that allows the user to organize their notes and keep track of tasks at hand. With the ability to write, save and delete notes to better organize your tasks!",
+      "image": "../../images/project/jotit.png",
       "deployed": "https://floating-peak-63791.herokuapp.com/",
       "github": "https://github.com/DiSantoz/jotit"
     },
     {
       "category": "Frontend",
       "title": "The Brokers",
-      "description": "",
-      "image": "",
+      "description": "An application developed alongside three additional developers that allows the user to gain instant information regarding a stock with relevant news information. We believe the user should have all the available information in one simple application to make their own informed financial decision.",
+      "image":  "../../images/project/brokers.png",
       "deployed": "https://disantoz.github.io/The-Brokers/",
       "github": "https://github.com/DiSantoz/The-Brokers"
     },
     {
-      "category": "Backend",
-      "title": "Esquel",
-      "description": "",
-      "image": "",
-      "deployed": "",
-      "github": "https://github.com/DiSantoz/esequel"
+      "category": "Full Stack",
+      "title": "off-budget",
+      "description": "A  budget tracking website that works even when the user has no internet connection. Best of all the app can be installed directly on your mobile device or desktop.",
+      "image":  "../../images/project/budget.png",
+      "deployed": "https://off-budget.herokuapp.com/",
+      "github": "https://github.com/DiSantoz/off_budget"
     },
     {
-      "category": "Backend",
-     "title": "Social-Api",
-      "description": "",
-      "image": "",
-      "deployed": "",
-      "github": "https://github.com/DiSantoz/social_api"
+      "category": "Frontend",
+     "title": "Plannie",
+      "description": "Plannie, is a daily planner that helps the user better organize their time and manage tasks effortlessly. Plannie will become a daily utility for the average consumer who has too many tasks with no guidance on how to organize their day efficiently.",
+      "image":  "../../images/project/plan.png",
+      "deployed": "https://disantoz.github.io/plannie/",
+      "github": "https://github.com/DiSantoz/plannie"
     }
   ]

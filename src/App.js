@@ -13,7 +13,7 @@ function App() {
   // The renderPage method uses a switch statement to render the appropriate current page
   const renderPage = () => {
     switch (currentPage) {
-      case "Project":
+      case "Portfolio":
         return <Project />;
       case "Contact":
         return <Contact />;
@@ -26,9 +26,6 @@ function App() {
 
   return (
     <div>
-      {/* <Project
-
-      /> */}
       {/* Pass the state value and the setter as props to NavTabs */}
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Call the renderPage function */}

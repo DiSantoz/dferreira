@@ -1,6 +1,5 @@
 import React from "react";
 import coverImage from "../../assets/cover/me.jpg";
-import Project from "../Project";
 
 function About() {
   return (
