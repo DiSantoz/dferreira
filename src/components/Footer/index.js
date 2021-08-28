@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <section class="" id="contact">
+    <footer class="footer" id="contact">
       <div class="">
         <h3>Contact Me</h3>
 
@@ -18,13 +18,19 @@ function Footer() {
               href="https://www.linkedin.com/in/davidsantosferreira/ "
               class=""
               target="_blank"
+              rel="noreferrer"
             >
               <i class="fab fa-linkedin fa-2x"> </i>
             </a>
           </li>
 
           <li>
-            <a href="https://github.com/DiSantoz" target="_blank" class="">
+            <a
+              href="https://github.com/DiSantoz"
+              target="_blank"
+              rel="noreferrer"
+              class=""
+            >
               <i class="fab fa-github-square fa-2x"> </i>
             </a>
           </li>
@@ -35,7 +41,7 @@ function Footer() {
           </li>
         </ul>
       </div>
-    </section>
+    </footer>
   );
 }
 
