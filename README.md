@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# David Ferreira Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+My portfolio show cases some of my projects and group projects! Get a glance of my work by viewing the deployed applications and take a look at my code via github. If you like what you see, please feel free to contact me! I am always looking to connect!
 
-In the project directory, you can run:
+**Check out my <a href="https://disantoz.github.io/dferreira/" target="_blank">Portfolio!</a>**
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Usage](#usage)
+- [Technology](#technology)
+- [Questions](#questions)
+- [License](#license)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+Naviate through the different tabs on the top of the page to jump to the different sections of my website !
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![alt](src/assets/readme/nav.png)
 
-### `npm run build`
+Each tab in the nav will highlight to show which content you're currently viewing.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Portfolio tab will display my projects, which includes a `short description`, `tools used`, and `links` to the `Github repo` as well as the `deployed website`!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![alt](src/assets/readme/project.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The `Contact` tab will allow the user to asks me questions, or leave a message.
 
-### `npm run eject`
+![alt](src/assets/readme/contact.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Navigating to the `Resume` tab, will display a list of my proficiencies, broken down by categories. On the top left you can click on the word `Resume` to download and view/save my resume!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![alt](src/assets/readme/res.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Finally, at the footer, you can view my `LinkedIn` and `GitHub` as well as `email`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![alt](src/assets/readme/foot.png)
 
-## Learn More
+## Technology
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React
+- Bootstrap
+- Font-awesome
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Questions
 
-### Code Splitting
+Hi my name is [DiSantoz](https://github.com/DiSantoz) if you like my work and want to connect feel free to contact me at: dferreira91@outlook.com!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can also reach me through the other contact methods listed in the portfolio.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![alt](https://img.shields.io/npm/l/inquirer)
 
-### Making a Progressive Web App
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Copyright (c) 2021 DiSantoz
 
-### Advanced Configuration
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
