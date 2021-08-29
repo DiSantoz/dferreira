@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dferreira/static/css/main.4ac02b7a.chunk.css",
+    "main.js": "/dferreira/static/js/main.1b0651c6.chunk.js",
+    "main.js.map": "/dferreira/static/js/main.1b0651c6.chunk.js.map",
+    "runtime-main.js": "/dferreira/static/js/runtime-main.77bd8a4b.js",
+    "runtime-main.js.map": "/dferreira/static/js/runtime-main.77bd8a4b.js.map",
+    "static/js/2.f5847f0f.chunk.js": "/dferreira/static/js/2.f5847f0f.chunk.js",
+    "static/js/2.f5847f0f.chunk.js.map": "/dferreira/static/js/2.f5847f0f.chunk.js.map",
+    "static/js/3.8390706a.chunk.js": "/dferreira/static/js/3.8390706a.chunk.js",
+    "static/js/3.8390706a.chunk.js.map": "/dferreira/static/js/3.8390706a.chunk.js.map",
+    "index.html": "/dferreira/index.html",
+    "static/css/main.4ac02b7a.chunk.css.map": "/dferreira/static/css/main.4ac02b7a.chunk.css.map",
+    "static/js/2.f5847f0f.chunk.js.LICENSE.txt": "/dferreira/static/js/2.f5847f0f.chunk.js.LICENSE.txt",
+    "static/media/Resume.b5146748.pdf": "/dferreira/static/media/Resume.b5146748.pdf",
+    "static/media/me.52f81980.jpg": "/dferreira/static/media/me.52f81980.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77bd8a4b.js",
+    "static/js/2.f5847f0f.chunk.js",
+    "static/css/main.4ac02b7a.chunk.css",
+    "static/js/main.1b0651c6.chunk.js"
+  ]
+}
