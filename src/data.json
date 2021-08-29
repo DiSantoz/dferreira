@@ -6,16 +6,25 @@
       "description": "A tech themed blog website, that allows users to sign-up, or log in to their account and interact with other users via comments, as well as create their own posts!",
       "image": "../../images/project/tech-space.png",
       "deployed": "https://the-tech-space.herokuapp.com/",
-      "github": "https://github.com/DiSantoz/tech-space"
-      
+      "github": "https://github.com/DiSantoz/tech-space",
+      "tools1": "mysql2",
+      "tools2": "sequelize", 
+      "tools3": "express", 
+      "tools4": "nodeJS",
+      "tools5":"handlebars"
     },
     {
       "category": "Full-Stack",
       "title": "Reciplanner",
-      "description": "View recipe videos and posts from other users",
+      "description": "Worked alongside other developers to create a full-stack application that allows users to view, create, edit and delete their own Recipes!",
       "image": "../../images/project/recipe.png",
       "deployed": "https://reciplanner.herokuapp.com/",
-      "github": "https://github.com/DiSantoz/reciplanner"
+      "github": "https://github.com/DiSantoz/reciplanner",
+      "tools1": "MVC",
+      "tools2": "animate.css", 
+      "tools3": "express", 
+      "tools4": "CRUD",
+      "tools5":"handlebars"
     },
     {
       "category": "Frontend",
@@ -23,7 +32,12 @@
       "description": "A simple and convenient note taking app that allows the user to organize their notes and keep track of tasks at hand. With the ability to write, save and delete notes to better organize your tasks!",
       "image": "../../images/project/jotit.png",
       "deployed": "https://floating-peak-63791.herokuapp.com/",
-      "github": "https://github.com/DiSantoz/jotit"
+      "github": "https://github.com/DiSantoz/jotit",
+      "tools1": "JavaScript",
+      "tools2": "JQuery", 
+      "tools3": "Express", 
+      "tools4": "Uniqid",
+      "tools5":"Bootstrap"
     },
     {
       "category": "Frontend",
@@ -31,15 +45,25 @@
       "description": "An application developed alongside three additional developers that allows the user to gain instant information regarding a stock with relevant news information. We believe the user should have all the available information in one simple application to make their own informed financial decision.",
       "image":  "../../images/project/brokers.png",
       "deployed": "https://disantoz.github.io/The-Brokers/",
-      "github": "https://github.com/DiSantoz/The-Brokers"
+      "github": "https://github.com/DiSantoz/The-Brokers",
+      "tools1": "JavaScript",
+      "tools2": "JQuery", 
+      "tools3": "Polygon API", 
+      "tools4": "Twelva-Dat API",
+      "tools5":"Materialize"
     },
     {
       "category": "Full Stack",
-      "title": "off-budget",
+      "title": "Off-Budget",
       "description": "A  budget tracking website that works even when the user has no internet connection. Best of all the app can be installed directly on your mobile device or desktop.",
       "image":  "../../images/project/budget.png",
       "deployed": "https://off-budget.herokuapp.com/",
-      "github": "https://github.com/DiSantoz/off_budget"
+      "github": "https://github.com/DiSantoz/off_budget",
+      "tools1": "PWA",
+      "tools2": "MongoDB", 
+      "tools3": "mongoose", 
+      "tools4": "express",
+      "tools5":"JavaScript"
     },
     {
       "category": "Frontend",
@@ -47,6 +71,11 @@
       "description": "Plannie, is a daily planner that helps the user better organize their time and manage tasks effortlessly. Plannie will become a daily utility for the average consumer who has too many tasks with no guidance on how to organize their day efficiently.",
       "image":  "../../images/project/plan.png",
       "deployed": "https://disantoz.github.io/plannie/",
-      "github": "https://github.com/DiSantoz/plannie"
+      "github": "https://github.com/DiSantoz/plannie",
+      "tools1": "JavaScript",
+      "tools2": "JQuery", 
+      "tools3": "Moment-JS", 
+      "tools4": "Bootstrap",
+      "tools5":"CSS"
     }
   ]
