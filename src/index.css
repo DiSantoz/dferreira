@@ -63,10 +63,45 @@ body {
   }
 
 
-  /* Portfolio */
-
+  /* Contact Tab */
+  textarea {
+    width: 600px;
+    height: 120px;
+    border: 3px solid #110101;
+    padding: 5px;
+  }
   
+  .container {
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form {
+    width: 40%;
+  }
+  
+  input {
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: 1px solid #000000;;
+    outline: none;
+    border-radius: 3px;
+    transition: box-shadow 0.2s;
+    width: 600px;
+    height: 50px;
+  }
 
+  .btn-primary{
+    background-color: var(--tertiary);
+    color: var(--lighter);
+    border-color: none;
+  }
+
+.btn-primary:hover{
+  background-color: var(--secondary);
+  border-color: var(--light);
+}
 
 /* Footer */
 .contact{
@@ -90,29 +125,3 @@ body {
 
 
 
-/* Contact Tab */
-textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #110101;
-	padding: 5px;
-}
-
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-form {
-  width: 40%;
-}
-
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid #000000;;
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
