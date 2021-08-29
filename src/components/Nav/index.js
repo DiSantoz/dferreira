@@ -1,17 +1,15 @@
 import React from "react";
 
 function Nav(props) {
-  const tabs = ["About", "Portfolio", "Contact", "Resume"];
+  const tabs = ["About Me", "Portfolio", "Contact", "Resume"];
   return (
-    <header className="flex-row px-1">
+    <header>
       <h2>
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera">
-            David Ferreira
-          </span>
+        <a href="/" className="name">
+          <span>David Ferreira</span>
         </a>
       </h2>
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-pills">
         {tabs.map((tab) => (
           <li className="nav-item" key={tab}>
             <a

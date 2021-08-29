@@ -4,10 +4,6 @@ import coverImage from "../../assets/cover/me.jpg";
 function About() {
   return (
     <section className="">
-      <h1 className="text-center" id="about">
-        David Ferreira
-      </h1>
-
       <img
         src={coverImage}
         className="rounded mx-auto d-block"

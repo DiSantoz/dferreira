@@ -9,10 +9,64 @@ main {
 }
 
 
+:root {
+  --primary: #0D1B2A; 
+  --secondary: #1B263B;
+  --tertiary: #415A77;
+  --light: #778DA9;
+  --lighter: #E0E1DD;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: .1em;
+  background: var(--primary);
+  color: var(--light);
+  font-family: 'Abel', sans-serif;
+}
+
+
+  /*Nav Bar  */
+  header {
+    padding: 15px 6% 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--tertiary);
+  }
+
+  .name{
+    text-decoration: none;
+    font-size: 40px;
+    color: var(--lighter)
+  }
+
+  .name:hover{
+    color: var(--lighter);
+    cursor: pointer;
+  }
+
+  .nav-pills .nav-link {
+    color: var(--lighter)
+  }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--lighter);
+    background-color: var(--secondary);
+  }
+
+
+
+/* Footer */
 .contact{
-  background-color: var(--tertiary);
-  color: var(--secondary);
-  font-family: 'Staatliches', cursive;
+  color: var(--light);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -22,10 +76,39 @@ main {
 }
 
 .contact li a {
-  color: var(--secondary);
+  color: var(--light);
   padding: 5px;
   text-decoration: none;
   font-size: 1.3rem;
   font-style: normal;
 }
 
+
+
+
+/* Contact Tab */
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #110101;
+	padding: 5px;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid #000000;;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
