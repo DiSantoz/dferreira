@@ -4,7 +4,7 @@
       "category": "Full-Stack",
       "title": "Tech-Space",
       "description": "A tech themed blog website, that allows users to sign-up, or log in to their account and interact with other users via comments, as well as create their own posts!",
-      "image": "../../images/project/tech-space.png",
+      "image": "dferreira../../images/project/tech-space.png",
       "deployed": "https://the-tech-space.herokuapp.com/",
       "github": "https://github.com/DiSantoz/tech-space",
       "tools1": "mysql2",
