@@ -4,44 +4,106 @@ import Resumepdf from "../../assets/resume/Resume.pdf";
 function Resume() {
   return (
     <section className="">
-      <h1 id="about">
+      <h1 id="about" style={{ textAlign: "right" }}>
         Download my{" "}
-        <a href={Resumepdf} target="_blank" rel="noopener noreferrer">
+        <a
+          href={Resumepdf}
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume"
+        >
           Resume
         </a>
       </h1>
 
       <div className="container">
-        <div className="row justify-content-start">
-          {/* HTML ICON */}
-          <div className="icon col">
-            <i className="fab fa-html5 fa-3x" title="HTML"></i>
-          </div>
-          {/* CSS ICON */}
-          <div className="icon col">
-            <i className="fab fa-css3-alt fa-3x" title="CSS"></i>
-          </div>
-          {/* JAVASCRIPT ICON */}
-          <div className="icon col">
-            <i className="fab fa-js fa-3x" title="JavaScript"></i>
-          </div>
-          {/* NPM ICON */}
-          <div className="icon col">
-            <i className="fab fa-npm fa-3x" title="NPM"></i>
-          </div>
-          {/* NODEJS ICON */}
-          <div className="icon col">
-            <i className="fab fa-node fa-3x" title="NodeJs"></i>
-          </div>
-          {/* GIT ICON */}
-          <div className="icon col">
-            <i className="fab fa-git fa-3x" title="Git"></i>
-          </div>
-          {/* BOOTSTRAP ICON */}
-          <div className="icon col">
-            <i className="fab fa-bootstrap fa-3x fa-fw" title="Bootstrap"></i>
-          </div>
-        </div>
+        <h2 style={{ textAlign: "center" }} className="prof">
+          List of Proficiencies
+        </h2>
+        <h3 style={{ textAlign: "center" }} className="title">
+          Languages
+        </h3>
+        <ul style={{ textAlign: "center" }} className="lists">
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+              alt="HTML5"
+            />
+          </li>
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"
+              alt="CSS"
+            />
+          </li>
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+              alt="JavaScript"
+            />
+          </li>
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white"
+              alt="JSON"
+            />
+          </li>
+        </ul>
+
+        <h3 style={{ textAlign: "center" }} className="title">
+          Databases
+        </h3>
+        <ul style={{ textAlign: "center" }} className="lists">
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white"
+              alt="MYSQL"
+            />
+          </li>
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"
+              alt="MONGODB"
+            />
+          </li>
+        </ul>
+
+        <h3 style={{ textAlign: "center" }} className="title">
+          Tools
+        </h3>
+        <ul style={{ textAlign: "center" }} className="lists">
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"
+              alt="NPM"
+            />
+          </li>
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"
+              alt="NODEJS"
+            />
+          </li>
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"
+              alt="Express"
+            />
+          </li>
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
+              alt="Bootstrap"
+            />
+          </li>
+          <li className=" list-inline-item">
+            <img
+              src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
+              alt="Git"
+            />
+          </li>
+        </ul>
       </div>
     </section>
   );

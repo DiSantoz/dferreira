@@ -11,7 +11,9 @@ function Project() {
         {projectList.map((project, index) => (
           <div className="col">
             <div className="card h-100" style={{ width: "30rem" }} key={index}>
-              <h3>{project.title}</h3>
+              <h3 style={{ color: "var(--secondary)", fontSize: "30px" }}>
+                {project.title}
+              </h3>
               <img
                 src={project.image}
                 style={{
@@ -21,13 +23,24 @@ function Project() {
                 className="card-img-top"
                 alt="..."
               ></img>
-              <p className="card-title">{project.category}</p>
+              <p className="card-title" style={{ color: "var(--tertiary)" }}>
+                {project.category}
+              </p>
               <p className="card-text">{project.description}</p>
-              <div className="card-body">
-                <a href={project.deployed} className="btn btn-outline-primary">
+              <div className="card-body mx-auto">
+                <a
+                  href={project.deployed}
+                  target="_blank"
+                  className="btn btn-outline-primary"
+                  style={{ marginRight: "15px" }}
+                >
                   <i class="fad fa-browser fa-2x"></i>
                 </a>
-                <a href={project.github} className="btn btn-outline-primary">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  className="btn btn-outline-primary"
+                >
                   <i class="fab fa-github-square fa-2x"></i>
                 </a>
               </div>

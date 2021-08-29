@@ -103,6 +103,27 @@ body {
   border-color: var(--light);
 }
 
+/* Resume */
+.resume{
+  text-decoration: none;
+  color: var(--lighter);
+}
+
+.lists{
+  padding-bottom: 15px;
+}
+
+.prof{
+  text-decoration: underline;
+  text-decoration-color: var(--tertiary);
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.title{
+  color: var(--lighter)
+}
+
 /* Footer */
 .contact{
   color: var(--light);
