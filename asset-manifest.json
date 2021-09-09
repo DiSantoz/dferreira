@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dferreira/static/css/main.4ac02b7a.chunk.css",
-    "main.js": "/dferreira/static/js/main.c190a66b.chunk.js",
-    "main.js.map": "/dferreira/static/js/main.c190a66b.chunk.js.map",
+    "main.css": "/dferreira/static/css/main.e944b155.chunk.css",
+    "main.js": "/dferreira/static/js/main.9e725630.chunk.js",
+    "main.js.map": "/dferreira/static/js/main.9e725630.chunk.js.map",
     "runtime-main.js": "/dferreira/static/js/runtime-main.77bd8a4b.js",
     "runtime-main.js.map": "/dferreira/static/js/runtime-main.77bd8a4b.js.map",
     "static/js/2.f5847f0f.chunk.js": "/dferreira/static/js/2.f5847f0f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8390706a.chunk.js": "/dferreira/static/js/3.8390706a.chunk.js",
     "static/js/3.8390706a.chunk.js.map": "/dferreira/static/js/3.8390706a.chunk.js.map",
     "index.html": "/dferreira/index.html",
-    "static/css/main.4ac02b7a.chunk.css.map": "/dferreira/static/css/main.4ac02b7a.chunk.css.map",
+    "static/css/main.e944b155.chunk.css.map": "/dferreira/static/css/main.e944b155.chunk.css.map",
     "static/js/2.f5847f0f.chunk.js.LICENSE.txt": "/dferreira/static/js/2.f5847f0f.chunk.js.LICENSE.txt",
     "static/media/Resume.740c0c1b.pdf": "/dferreira/static/media/Resume.740c0c1b.pdf",
     "static/media/me.52f81980.jpg": "/dferreira/static/media/me.52f81980.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.77bd8a4b.js",
     "static/js/2.f5847f0f.chunk.js",
-    "static/css/main.4ac02b7a.chunk.css",
-    "static/js/main.c190a66b.chunk.js"
+    "static/css/main.e944b155.chunk.css",
+    "static/js/main.9e725630.chunk.js"
   ]
 }
