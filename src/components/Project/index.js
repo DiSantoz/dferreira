@@ -31,6 +31,7 @@ function Project() {
                 <a
                   href={project.deployed}
                   target="_blank"
+                  rel="noreferrer"
                   className="btn btn-outline-primary"
                   style={{ marginRight: "15px" }}
                 >
@@ -39,6 +40,7 @@ function Project() {
                 <a
                   href={project.github}
                   target="_blank"
+                  rel="noreferrer"
                   className="btn btn-outline-primary"
                 >
                   <i class="fab fa-github-square fa-2x"></i>
