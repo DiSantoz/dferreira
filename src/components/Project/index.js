@@ -9,7 +9,7 @@ function Project() {
     <div className="users">
       <div className="row row-cols-1 row-cols-md-2 g-4">
         {projectList.map((project, index) => (
-          <div className="col">
+          <div className="col-sm">
             <div className="card h-100" style={{ width: "30rem" }} key={index}>
               <h3 style={{ color: "var(--secondary)", fontSize: "30px" }}>
                 {project.title}
