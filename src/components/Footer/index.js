@@ -35,7 +35,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="mailto:dferreia91@outlook.com" class="">
+            <a href="mailto:idavidferreira91@gmail.com" class="">
               <i class="fas fa-envelope fa-2x"> </i>
             </a>
           </li>
