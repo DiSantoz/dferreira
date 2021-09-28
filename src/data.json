@@ -77,19 +77,5 @@
       "tools3": "Moment-JS", 
       "tools4": "Bootstrap",
       "tools5":"CSS"
-    },
-
-    {
-   "category": "MERN",
-     "title": "Hot Sauce Boss",
-      "description": "An application that allows users to post their own hot sauce and view other users hot sauces. ",
-      "image":  "images/project/hot.png",
-      "deployed": "https://hot-sauce-boss.herokuapp.com/",
-      "github": "https://github.com/JConnrO/hot-sauce-boss",
-      "tools1": "Graphql",
-      "tools2": "React", 
-      "tools3": "Material UI", 
-      "tools4": "Mongoose",
-      "tools5":"CRUD"
     }
   ]
